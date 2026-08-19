@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { GoaHindiLogo } from './BrandLogos.tsx';
 
 const PIPELINE_STEPS = [
   { label: 'VOICE', description: 'User speaks a question' },
@@ -20,7 +21,8 @@ export function ArchitectureSection() {
       className="mx-auto max-w-5xl px-6 py-20 md:px-10"
     >
       {/* Section title */}
-      <div className="mb-12 text-center">
+      <div className="mb-12 text-center flex flex-col items-center gap-2">
+        <GoaHindiLogo className="h-5 w-auto text-accent/60 mb-1" />
         <h2 className="text-[10px] font-mono tracking-[0.4em] text-text-secondary">
           UNDER THE HOOD
         </h2>
